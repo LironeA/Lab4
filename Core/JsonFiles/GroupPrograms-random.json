@@ -1,0 +1,55 @@
+[
+  {
+    "Id": 0,
+    "GroupId": 0,
+    "SubjectIds": [
+      0,
+      1,
+      3,
+      5,
+      7
+    ]
+  },
+  {
+    "Id": 1,
+    "GroupId": 1,
+    "SubjectIds": [
+      1,
+      4,
+      6,
+      7
+    ]
+  },
+  {
+    "Id": 2,
+    "GroupId": 2,
+    "SubjectIds": [
+      3,
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "Id": 3,
+    "GroupId": 3,
+    "SubjectIds": [
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "Id": 4,
+    "GroupId": 4,
+    "SubjectIds": [
+      0,
+      1,
+      3,
+      6,
+      7
+    ]
+  }
+]

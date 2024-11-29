@@ -1,0 +1,32 @@
+[
+  {
+    "Id": 0,
+    "Name": "R-0",
+    "Capacity": 50
+  },
+  {
+    "Id": 1,
+    "Name": "R-1",
+    "Capacity": 50
+  },
+  {
+    "Id": 2,
+    "Name": "R-2",
+    "Capacity": 50
+  },
+  {
+    "Id": 3,
+    "Name": "R-3",
+    "Capacity": 50
+  },
+  {
+    "Id": 4,
+    "Name": "R-4",
+    "Capacity": 50
+  },
+  {
+    "Id": 5,
+    "Name": "R-5",
+    "Capacity": 50
+  },
+]

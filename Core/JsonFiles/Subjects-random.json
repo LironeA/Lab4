@@ -1,0 +1,66 @@
+[
+  {
+    "Id": 0,
+    "Name": "Теорія прийняття рішень",
+    "Hours": 0,
+    "LectureHours": 1,
+    "PracticalHours": 2,
+    "RequiresSubGroupDivision": true
+  },
+  {
+    "Id": 1,
+    "Name": "Статистичне моделювання",
+    "Hours": 0,
+    "LectureHours": 2,
+    "PracticalHours": 3,
+    "RequiresSubGroupDivision": true
+  },
+  {
+    "Id": 2,
+    "Name": "S-2",
+    "Hours": 0,
+    "LectureHours": 2,
+    "PracticalHours": 2,
+    "RequiresSubGroupDivision": false
+  },
+  {
+    "Id": 3,
+    "Name": "S-3",
+    "Hours": 0,
+    "LectureHours": 2,
+    "PracticalHours": 1,
+    "RequiresSubGroupDivision": false
+  },
+  {
+    "Id": 4,
+    "Name": "S-4",
+    "Hours": 0,
+    "LectureHours": 2,
+    "PracticalHours": 1,
+    "RequiresSubGroupDivision": true
+  },
+  {
+    "Id": 5,
+    "Name": "S-5",
+    "Hours": 0,
+    "LectureHours": 2,
+    "PracticalHours": 1,
+    "RequiresSubGroupDivision": true
+  },
+  {
+    "Id": 6,
+    "Name": "S-6",
+    "Hours": 0,
+    "LectureHours": 2,
+    "PracticalHours": 1,
+    "RequiresSubGroupDivision": true
+  },
+  {
+    "Id": 7,
+    "Name": "S-7",
+    "Hours": 0,
+    "LectureHours": 2,
+    "PracticalHours": 1,
+    "RequiresSubGroupDivision": true
+  }
+]

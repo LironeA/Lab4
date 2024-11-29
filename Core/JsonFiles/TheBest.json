@@ -1,0 +1,2781 @@
+{
+  "GroupsCount": 5,
+  "GroupTimeTables": [
+    {
+      "Group": {
+        "Id": 0,
+        "Name": "TTP41",
+        "NumberOfStudents": 30
+      },
+      "WorkDayNumber": 5,
+      "DayTimeTables": [
+        {
+          "MaxNumberOfLessons": 4,
+          "TimeTableCells": [
+            {
+              "Subject": {
+                "Id": 1,
+                "Name": "Статистичне моделювання",
+                "Hours": 0,
+                "LectureHours": 2,
+                "PracticalHours": 3,
+                "RequiresSubGroupDivision": true
+              },
+              "Room": {
+                "Id": 0,
+                "Name": "R-0",
+                "Capacity": 50
+              },
+              "Teacher": {
+                "Id": 0,
+                "Name": "T-0",
+                "SubjectIds": [
+                  0,
+                  1
+                ],
+                "CanLectures": false,
+                "CanPracticals": true
+              },
+              "IsLecture": false
+            },
+            {
+              "Subject": {
+                "Id": 3,
+                "Name": "S-3",
+                "Hours": 0,
+                "LectureHours": 2,
+                "PracticalHours": 1,
+                "RequiresSubGroupDivision": false
+              },
+              "Room": {
+                "Id": 3,
+                "Name": "R-3",
+                "Capacity": 30
+              },
+              "Teacher": {
+                "Id": 2,
+                "Name": "T-2",
+                "SubjectIds": [
+                  2,
+                  3
+                ],
+                "CanLectures": true,
+                "CanPracticals": true
+              },
+              "IsLecture": true
+            },
+            {
+              "Subject": {
+                "Id": 3,
+                "Name": "S-3",
+                "Hours": 0,
+                "LectureHours": 2,
+                "PracticalHours": 1,
+                "RequiresSubGroupDivision": false
+              },
+              "Room": {
+                "Id": 2,
+                "Name": "R-2",
+                "Capacity": 30
+              },
+              "Teacher": {
+                "Id": 2,
+                "Name": "T-2",
+                "SubjectIds": [
+                  2,
+                  3
+                ],
+                "CanLectures": true,
+                "CanPracticals": true
+              },
+              "IsLecture": true
+            },
+            {
+              "Subject": {
+                "Id": 3,
+                "Name": "S-3",
+                "Hours": 0,
+                "LectureHours": 2,
+                "PracticalHours": 1,
+                "RequiresSubGroupDivision": false
+              },
+              "Room": {
+                "Id": 5,
+                "Name": "R-5",
+                "Capacity": 30
+              },
+              "Teacher": {
+                "Id": 2,
+                "Name": "T-2",
+                "SubjectIds": [
+                  2,
+                  3
+                ],
+                "CanLectures": true,
+                "CanPracticals": true
+              },
+              "IsLecture": true
+            }
+          ]
+        },
+        {
+          "MaxNumberOfLessons": 4,
+          "TimeTableCells": [
+            {
+              "Subject": {
+                "Id": 3,
+                "Name": "S-3",
+                "Hours": 0,
+                "LectureHours": 2,
+                "PracticalHours": 1,
+                "RequiresSubGroupDivision": false
+              },
+              "Room": {
+                "Id": 1,
+                "Name": "R-1",
+                "Capacity": 50
+              },
+              "Teacher": {
+                "Id": 2,
+                "Name": "T-2",
+                "SubjectIds": [
+                  2,
+                  3
+                ],
+                "CanLectures": true,
+                "CanPracticals": true
+              },
+              "IsLecture": true
+            },
+            {
+              "Subject": {
+                "Id": 4,
+                "Name": "S-4",
+                "Hours": 0,
+                "LectureHours": 2,
+                "PracticalHours": 1,
+                "RequiresSubGroupDivision": true
+              },
+              "Room": {
+                "Id": 1,
+                "Name": "R-1",
+                "Capacity": 50
+              },
+              "Teacher": {
+                "Id": 3,
+                "Name": "T-3",
+                "SubjectIds": [
+                  3,
+                  4
+                ],
+                "CanLectures": false,
+                "CanPracticals": true
+              },
+              "IsLecture": false
+            },
+            {
+              "Subject": {
+                "Id": 2,
+                "Name": "S-2",
+                "Hours": 0,
+                "LectureHours": 2,
+                "PracticalHours": 4,
+                "RequiresSubGroupDivision": false
+              },
+              "Room": {
+                "Id": 3,
+                "Name": "R-3",
+                "Capacity": 30
+              },
+              "Teacher": {
+                "Id": 2,
+                "Name": "T-2",
+                "SubjectIds": [
+                  2,
+                  3
+                ],
+                "CanLectures": true,
+                "CanPracticals": true
+              },
+              "IsLecture": false
+            },
+            {
+              "Subject": {
+                "Id": 4,
+                "Name": "S-4",
+                "Hours": 0,
+                "LectureHours": 2,
+                "PracticalHours": 1,
+                "RequiresSubGroupDivision": true
+              },
+              "Room": {
+                "Id": 3,
+                "Name": "R-3",
+                "Capacity": 30
+              },
+              "Teacher": {
+                "Id": 4,
+                "Name": "T-4",
+                "SubjectIds": [
+                  0,
+                  4
+                ],
+                "CanLectures": true,
+                "CanPracticals": true
+              },
+              "IsLecture": true
+            }
+          ]
+        },
+        {
+          "MaxNumberOfLessons": 4,
+          "TimeTableCells": [
+            {
+              "Subject": {
+                "Id": 3,
+                "Name": "S-3",
+                "Hours": 0,
+                "LectureHours": 2,
+                "PracticalHours": 1,
+                "RequiresSubGroupDivision": false
+              },
+              "Room": {
+                "Id": 3,
+                "Name": "R-3",
+                "Capacity": 30
+              },
+              "Teacher": {
+                "Id": 2,
+                "Name": "T-2",
+                "SubjectIds": [
+                  2,
+                  3
+                ],
+                "CanLectures": true,
+                "CanPracticals": true
+              },
+              "IsLecture": false
+            },
+            {
+              "Subject": {
+                "Id": 2,
+                "Name": "S-2",
+                "Hours": 0,
+                "LectureHours": 2,
+                "PracticalHours": 4,
+                "RequiresSubGroupDivision": false
+              },
+              "Room": {
+                "Id": 1,
+                "Name": "R-1",
+                "Capacity": 50
+              },
+              "Teacher": {
+                "Id": 1,
+                "Name": "T-1",
+                "SubjectIds": [
+                  1,
+                  2
+                ],
+                "CanLectures": true,
+                "CanPracticals": true
+              },
+              "IsLecture": true
+            },
+            {
+              "Subject": {
+                "Id": 0,
+                "Name": "Теорія прийняття рішень",
+                "Hours": 0,
+                "LectureHours": 30,
+                "PracticalHours": 30,
+                "RequiresSubGroupDivision": true
+              },
+              "Room": {
+                "Id": 5,
+                "Name": "R-5",
+                "Capacity": 30
+              },
+              "Teacher": {
+                "Id": 4,
+                "Name": "T-4",
+                "SubjectIds": [
+                  0,
+                  4
+                ],
+                "CanLectures": true,
+                "CanPracticals": true
+              },
+              "IsLecture": true
+            },
+            {
+              "Subject": {
+                "Id": 2,
+                "Name": "S-2",
+                "Hours": 0,
+                "LectureHours": 2,
+                "PracticalHours": 4,
+                "RequiresSubGroupDivision": false
+              },
+              "Room": {
+                "Id": 2,
+                "Name": "R-2",
+                "Capacity": 30
+              },
+              "Teacher": {
+                "Id": 2,
+                "Name": "T-2",
+                "SubjectIds": [
+                  2,
+                  3
+                ],
+                "CanLectures": true,
+                "CanPracticals": true
+              },
+              "IsLecture": false
+            }
+          ]
+        },
+        {
+          "MaxNumberOfLessons": 4,
+          "TimeTableCells": [
+            {
+              "Subject": {
+                "Id": 0,
+                "Name": "Теорія прийняття рішень",
+                "Hours": 0,
+                "LectureHours": 30,
+                "PracticalHours": 30,
+                "RequiresSubGroupDivision": true
+              },
+              "Room": {
+                "Id": 2,
+                "Name": "R-2",
+                "Capacity": 30
+              },
+              "Teacher": {
+                "Id": 4,
+                "Name": "T-4",
+                "SubjectIds": [
+                  0,
+                  4
+                ],
+                "CanLectures": true,
+                "CanPracticals": true
+              },
+              "IsLecture": false
+            },
+            {
+              "Subject": {
+                "Id": 1,
+                "Name": "Статистичне моделювання",
+                "Hours": 0,
+                "LectureHours": 2,
+                "PracticalHours": 3,
+                "RequiresSubGroupDivision": true
+              },
+              "Room": {
+                "Id": 2,
+                "Name": "R-2",
+                "Capacity": 30
+              },
+              "Teacher": {
+                "Id": 0,
+                "Name": "T-0",
+                "SubjectIds": [
+                  0,
+                  1
+                ],
+                "CanLectures": false,
+                "CanPracticals": true
+              },
+              "IsLecture": false
+            },
+            {
+              "Subject": {
+                "Id": 1,
+                "Name": "Статистичне моделювання",
+                "Hours": 0,
+                "LectureHours": 2,
+                "PracticalHours": 3,
+                "RequiresSubGroupDivision": true
+              },
+              "Room": {
+                "Id": 1,
+                "Name": "R-1",
+                "Capacity": 50
+              },
+              "Teacher": {
+                "Id": 1,
+                "Name": "T-1",
+                "SubjectIds": [
+                  1,
+                  2
+                ],
+                "CanLectures": true,
+                "CanPracticals": true
+              },
+              "IsLecture": false
+            },
+            {
+              "Subject": {
+                "Id": 3,
+                "Name": "S-3",
+                "Hours": 0,
+                "LectureHours": 2,
+                "PracticalHours": 1,
+                "RequiresSubGroupDivision": false
+              },
+              "Room": {
+                "Id": 4,
+                "Name": "R-4",
+                "Capacity": 30
+              },
+              "Teacher": {
+                "Id": 2,
+                "Name": "T-2",
+                "SubjectIds": [
+                  2,
+                  3
+                ],
+                "CanLectures": true,
+                "CanPracticals": true
+              },
+              "IsLecture": true
+            }
+          ]
+        },
+        {
+          "MaxNumberOfLessons": 4,
+          "TimeTableCells": [
+            {
+              "Subject": {
+                "Id": 2,
+                "Name": "S-2",
+                "Hours": 0,
+                "LectureHours": 2,
+                "PracticalHours": 4,
+                "RequiresSubGroupDivision": false
+              },
+              "Room": {
+                "Id": 4,
+                "Name": "R-4",
+                "Capacity": 30
+              },
+              "Teacher": {
+                "Id": 2,
+                "Name": "T-2",
+                "SubjectIds": [
+                  2,
+                  3
+                ],
+                "CanLectures": true,
+                "CanPracticals": true
+              },
+              "IsLecture": true
+            },
+            {
+              "Subject": {
+                "Id": 1,
+                "Name": "Статистичне моделювання",
+                "Hours": 0,
+                "LectureHours": 2,
+                "PracticalHours": 3,
+                "RequiresSubGroupDivision": true
+              },
+              "Room": {
+                "Id": 5,
+                "Name": "R-5",
+                "Capacity": 30
+              },
+              "Teacher": {
+                "Id": 0,
+                "Name": "T-0",
+                "SubjectIds": [
+                  0,
+                  1
+                ],
+                "CanLectures": false,
+                "CanPracticals": true
+              },
+              "IsLecture": false
+            },
+            {
+              "Subject": {
+                "Id": 2,
+                "Name": "S-2",
+                "Hours": 0,
+                "LectureHours": 2,
+                "PracticalHours": 4,
+                "RequiresSubGroupDivision": false
+              },
+              "Room": {
+                "Id": 1,
+                "Name": "R-1",
+                "Capacity": 50
+              },
+              "Teacher": {
+                "Id": 1,
+                "Name": "T-1",
+                "SubjectIds": [
+                  1,
+                  2
+                ],
+                "CanLectures": true,
+                "CanPracticals": true
+              },
+              "IsLecture": true
+            },
+            {
+              "Subject": {
+                "Id": 4,
+                "Name": "S-4",
+                "Hours": 0,
+                "LectureHours": 2,
+                "PracticalHours": 1,
+                "RequiresSubGroupDivision": true
+              },
+              "Room": {
+                "Id": 0,
+                "Name": "R-0",
+                "Capacity": 50
+              },
+              "Teacher": {
+                "Id": 3,
+                "Name": "T-3",
+                "SubjectIds": [
+                  3,
+                  4
+                ],
+                "CanLectures": false,
+                "CanPracticals": true
+              },
+              "IsLecture": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Group": {
+        "Id": 1,
+        "Name": "TTP42",
+        "NumberOfStudents": 30
+      },
+      "WorkDayNumber": 5,
+      "DayTimeTables": [
+        {
+          "MaxNumberOfLessons": 4,
+          "TimeTableCells": [
+            {
+              "Subject": {
+                "Id": 4,
+                "Name": "S-4",
+                "Hours": 0,
+                "LectureHours": 2,
+                "PracticalHours": 1,
+                "RequiresSubGroupDivision": true
+              },
+              "Room": {
+                "Id": 3,
+                "Name": "R-3",
+                "Capacity": 30
+              },
+              "Teacher": {
+                "Id": 3,
+                "Name": "T-3",
+                "SubjectIds": [
+                  3,
+                  4
+                ],
+                "CanLectures": false,
+                "CanPracticals": true
+              },
+              "IsLecture": false
+            },
+            {
+              "Subject": {
+                "Id": 0,
+                "Name": "Теорія прийняття рішень",
+                "Hours": 0,
+                "LectureHours": 30,
+                "PracticalHours": 30,
+                "RequiresSubGroupDivision": true
+              },
+              "Room": {
+                "Id": 1,
+                "Name": "R-1",
+                "Capacity": 50
+              },
+              "Teacher": {
+                "Id": 0,
+                "Name": "T-0",
+                "SubjectIds": [
+                  0,
+                  1
+                ],
+                "CanLectures": false,
+                "CanPracticals": true
+              },
+              "IsLecture": false
+            },
+            {
+              "Subject": {
+                "Id": 3,
+                "Name": "S-3",
+                "Hours": 0,
+                "LectureHours": 2,
+                "PracticalHours": 1,
+                "RequiresSubGroupDivision": false
+              },
+              "Room": {
+                "Id": 2,
+                "Name": "R-2",
+                "Capacity": 30
+              },
+              "Teacher": {
+                "Id": 2,
+                "Name": "T-2",
+                "SubjectIds": [
+                  2,
+                  3
+                ],
+                "CanLectures": true,
+                "CanPracticals": true
+              },
+              "IsLecture": true
+            },
+            {
+              "Subject": {
+                "Id": 4,
+                "Name": "S-4",
+                "Hours": 0,
+                "LectureHours": 2,
+                "PracticalHours": 1,
+                "RequiresSubGroupDivision": true
+              },
+              "Room": {
+                "Id": 1,
+                "Name": "R-1",
+                "Capacity": 50
+              },
+              "Teacher": {
+                "Id": 4,
+                "Name": "T-4",
+                "SubjectIds": [
+                  0,
+                  4
+                ],
+                "CanLectures": true,
+                "CanPracticals": true
+              },
+              "IsLecture": true
+            }
+          ]
+        },
+        {
+          "MaxNumberOfLessons": 4,
+          "TimeTableCells": [
+            {
+              "Subject": {
+                "Id": 3,
+                "Name": "S-3",
+                "Hours": 0,
+                "LectureHours": 2,
+                "PracticalHours": 1,
+                "RequiresSubGroupDivision": false
+              },
+              "Room": {
+                "Id": 5,
+                "Name": "R-5",
+                "Capacity": 30
+              },
+              "Teacher": {
+                "Id": 3,
+                "Name": "T-3",
+                "SubjectIds": [
+                  3,
+                  4
+                ],
+                "CanLectures": false,
+                "CanPracticals": true
+              },
+              "IsLecture": false
+            },
+            {
+              "Subject": {
+                "Id": 0,
+                "Name": "Теорія прийняття рішень",
+                "Hours": 0,
+                "LectureHours": 30,
+                "PracticalHours": 30,
+                "RequiresSubGroupDivision": true
+              },
+              "Room": {
+                "Id": 2,
+                "Name": "R-2",
+                "Capacity": 30
+              },
+              "Teacher": {
+                "Id": 4,
+                "Name": "T-4",
+                "SubjectIds": [
+                  0,
+                  4
+                ],
+                "CanLectures": true,
+                "CanPracticals": true
+              },
+              "IsLecture": false
+            },
+            {
+              "Subject": {
+                "Id": 4,
+                "Name": "S-4",
+                "Hours": 0,
+                "LectureHours": 2,
+                "PracticalHours": 1,
+                "RequiresSubGroupDivision": true
+              },
+              "Room": {
+                "Id": 1,
+                "Name": "R-1",
+                "Capacity": 50
+              },
+              "Teacher": {
+                "Id": 3,
+                "Name": "T-3",
+                "SubjectIds": [
+                  3,
+                  4
+                ],
+                "CanLectures": false,
+                "CanPracticals": true
+              },
+              "IsLecture": false
+            },
+            {
+              "Subject": {
+                "Id": 3,
+                "Name": "S-3",
+                "Hours": 0,
+                "LectureHours": 2,
+                "PracticalHours": 1,
+                "RequiresSubGroupDivision": false
+              },
+              "Room": {
+                "Id": 1,
+                "Name": "R-1",
+                "Capacity": 50
+              },
+              "Teacher": {
+                "Id": 2,
+                "Name": "T-2",
+                "SubjectIds": [
+                  2,
+                  3
+                ],
+                "CanLectures": true,
+                "CanPracticals": true
+              },
+              "IsLecture": false
+            }
+          ]
+        },
+        {
+          "MaxNumberOfLessons": 4,
+          "TimeTableCells": [
+            {
+              "Subject": {
+                "Id": 0,
+                "Name": "Теорія прийняття рішень",
+                "Hours": 0,
+                "LectureHours": 30,
+                "PracticalHours": 30,
+                "RequiresSubGroupDivision": true
+              },
+              "Room": {
+                "Id": 1,
+                "Name": "R-1",
+                "Capacity": 50
+              },
+              "Teacher": {
+                "Id": 4,
+                "Name": "T-4",
+                "SubjectIds": [
+                  0,
+                  4
+                ],
+                "CanLectures": true,
+                "CanPracticals": true
+              },
+              "IsLecture": false
+            },
+            {
+              "Subject": {
+                "Id": 3,
+                "Name": "S-3",
+                "Hours": 0,
+                "LectureHours": 2,
+                "PracticalHours": 1,
+                "RequiresSubGroupDivision": false
+              },
+              "Room": {
+                "Id": 2,
+                "Name": "R-2",
+                "Capacity": 30
+              },
+              "Teacher": {
+                "Id": 2,
+                "Name": "T-2",
+                "SubjectIds": [
+                  2,
+                  3
+                ],
+                "CanLectures": true,
+                "CanPracticals": true
+              },
+              "IsLecture": false
+            },
+            {
+              "Subject": {
+                "Id": 4,
+                "Name": "S-4",
+                "Hours": 0,
+                "LectureHours": 2,
+                "PracticalHours": 1,
+                "RequiresSubGroupDivision": true
+              },
+              "Room": {
+                "Id": 0,
+                "Name": "R-0",
+                "Capacity": 50
+              },
+              "Teacher": {
+                "Id": 3,
+                "Name": "T-3",
+                "SubjectIds": [
+                  3,
+                  4
+                ],
+                "CanLectures": false,
+                "CanPracticals": true
+              },
+              "IsLecture": false
+            },
+            {
+              "Subject": {
+                "Id": 4,
+                "Name": "S-4",
+                "Hours": 0,
+                "LectureHours": 2,
+                "PracticalHours": 1,
+                "RequiresSubGroupDivision": true
+              },
+              "Room": {
+                "Id": 3,
+                "Name": "R-3",
+                "Capacity": 30
+              },
+              "Teacher": {
+                "Id": 3,
+                "Name": "T-3",
+                "SubjectIds": [
+                  3,
+                  4
+                ],
+                "CanLectures": false,
+                "CanPracticals": true
+              },
+              "IsLecture": false
+            }
+          ]
+        },
+        {
+          "MaxNumberOfLessons": 4,
+          "TimeTableCells": [
+            {
+              "Subject": {
+                "Id": 3,
+                "Name": "S-3",
+                "Hours": 0,
+                "LectureHours": 2,
+                "PracticalHours": 1,
+                "RequiresSubGroupDivision": false
+              },
+              "Room": {
+                "Id": 3,
+                "Name": "R-3",
+                "Capacity": 30
+              },
+              "Teacher": {
+                "Id": 3,
+                "Name": "T-3",
+                "SubjectIds": [
+                  3,
+                  4
+                ],
+                "CanLectures": false,
+                "CanPracticals": true
+              },
+              "IsLecture": false
+            },
+            {
+              "Subject": {
+                "Id": 2,
+                "Name": "S-2",
+                "Hours": 0,
+                "LectureHours": 2,
+                "PracticalHours": 4,
+                "RequiresSubGroupDivision": false
+              },
+              "Room": {
+                "Id": 0,
+                "Name": "R-0",
+                "Capacity": 50
+              },
+              "Teacher": {
+                "Id": 1,
+                "Name": "T-1",
+                "SubjectIds": [
+                  1,
+                  2
+                ],
+                "CanLectures": true,
+                "CanPracticals": true
+              },
+              "IsLecture": true
+            },
+            {
+              "Subject": {
+                "Id": 4,
+                "Name": "S-4",
+                "Hours": 0,
+                "LectureHours": 2,
+                "PracticalHours": 1,
+                "RequiresSubGroupDivision": true
+              },
+              "Room": {
+                "Id": 5,
+                "Name": "R-5",
+                "Capacity": 30
+              },
+              "Teacher": {
+                "Id": 4,
+                "Name": "T-4",
+                "SubjectIds": [
+                  0,
+                  4
+                ],
+                "CanLectures": true,
+                "CanPracticals": true
+              },
+              "IsLecture": false
+            },
+            {
+              "Subject": {
+                "Id": 0,
+                "Name": "Теорія прийняття рішень",
+                "Hours": 0,
+                "LectureHours": 30,
+                "PracticalHours": 30,
+                "RequiresSubGroupDivision": true
+              },
+              "Room": {
+                "Id": 0,
+                "Name": "R-0",
+                "Capacity": 50
+              },
+              "Teacher": {
+                "Id": 0,
+                "Name": "T-0",
+                "SubjectIds": [
+                  0,
+                  1
+                ],
+                "CanLectures": false,
+                "CanPracticals": true
+              },
+              "IsLecture": false
+            }
+          ]
+        },
+        {
+          "MaxNumberOfLessons": 4,
+          "TimeTableCells": [
+            {
+              "Subject": {
+                "Id": 2,
+                "Name": "S-2",
+                "Hours": 0,
+                "LectureHours": 2,
+                "PracticalHours": 4,
+                "RequiresSubGroupDivision": false
+              },
+              "Room": {
+                "Id": 1,
+                "Name": "R-1",
+                "Capacity": 50
+              },
+              "Teacher": {
+                "Id": 1,
+                "Name": "T-1",
+                "SubjectIds": [
+                  1,
+                  2
+                ],
+                "CanLectures": true,
+                "CanPracticals": true
+              },
+              "IsLecture": true
+            },
+            {
+              "Subject": {
+                "Id": 3,
+                "Name": "S-3",
+                "Hours": 0,
+                "LectureHours": 2,
+                "PracticalHours": 1,
+                "RequiresSubGroupDivision": false
+              },
+              "Room": {
+                "Id": 1,
+                "Name": "R-1",
+                "Capacity": 50
+              },
+              "Teacher": {
+                "Id": 2,
+                "Name": "T-2",
+                "SubjectIds": [
+                  2,
+                  3
+                ],
+                "CanLectures": true,
+                "CanPracticals": true
+              },
+              "IsLecture": true
+            },
+            {
+              "Subject": {
+                "Id": 1,
+                "Name": "Статистичне моделювання",
+                "Hours": 0,
+                "LectureHours": 2,
+                "PracticalHours": 3,
+                "RequiresSubGroupDivision": true
+              },
+              "Room": {
+                "Id": 5,
+                "Name": "R-5",
+                "Capacity": 30
+              },
+              "Teacher": {
+                "Id": 0,
+                "Name": "T-0",
+                "SubjectIds": [
+                  0,
+                  1
+                ],
+                "CanLectures": false,
+                "CanPracticals": true
+              },
+              "IsLecture": false
+            },
+            {
+              "Subject": {
+                "Id": 3,
+                "Name": "S-3",
+                "Hours": 0,
+                "LectureHours": 2,
+                "PracticalHours": 1,
+                "RequiresSubGroupDivision": false
+              },
+              "Room": {
+                "Id": 2,
+                "Name": "R-2",
+                "Capacity": 30
+              },
+              "Teacher": {
+                "Id": 2,
+                "Name": "T-2",
+                "SubjectIds": [
+                  2,
+                  3
+                ],
+                "CanLectures": true,
+                "CanPracticals": true
+              },
+              "IsLecture": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Group": {
+        "Id": 2,
+        "Name": "MI41",
+        "NumberOfStudents": 28
+      },
+      "WorkDayNumber": 5,
+      "DayTimeTables": [
+        {
+          "MaxNumberOfLessons": 4,
+          "TimeTableCells": [
+            {
+              "Subject": {
+                "Id": 0,
+                "Name": "Теорія прийняття рішень",
+                "Hours": 0,
+                "LectureHours": 30,
+                "PracticalHours": 30,
+                "RequiresSubGroupDivision": true
+              },
+              "Room": {
+                "Id": 5,
+                "Name": "R-5",
+                "Capacity": 30
+              },
+              "Teacher": {
+                "Id": 4,
+                "Name": "T-4",
+                "SubjectIds": [
+                  0,
+                  4
+                ],
+                "CanLectures": true,
+                "CanPracticals": true
+              },
+              "IsLecture": true
+            },
+            {
+              "Subject": {
+                "Id": 4,
+                "Name": "S-4",
+                "Hours": 0,
+                "LectureHours": 2,
+                "PracticalHours": 1,
+                "RequiresSubGroupDivision": true
+              },
+              "Room": {
+                "Id": 5,
+                "Name": "R-5",
+                "Capacity": 30
+              },
+              "Teacher": {
+                "Id": 3,
+                "Name": "T-3",
+                "SubjectIds": [
+                  3,
+                  4
+                ],
+                "CanLectures": false,
+                "CanPracticals": true
+              },
+              "IsLecture": false
+            },
+            {
+              "Subject": {
+                "Id": 4,
+                "Name": "S-4",
+                "Hours": 0,
+                "LectureHours": 2,
+                "PracticalHours": 1,
+                "RequiresSubGroupDivision": true
+              },
+              "Room": {
+                "Id": 3,
+                "Name": "R-3",
+                "Capacity": 30
+              },
+              "Teacher": {
+                "Id": 3,
+                "Name": "T-3",
+                "SubjectIds": [
+                  3,
+                  4
+                ],
+                "CanLectures": false,
+                "CanPracticals": true
+              },
+              "IsLecture": false
+            },
+            {
+              "Subject": {
+                "Id": 4,
+                "Name": "S-4",
+                "Hours": 0,
+                "LectureHours": 2,
+                "PracticalHours": 1,
+                "RequiresSubGroupDivision": true
+              },
+              "Room": {
+                "Id": 0,
+                "Name": "R-0",
+                "Capacity": 50
+              },
+              "Teacher": {
+                "Id": 3,
+                "Name": "T-3",
+                "SubjectIds": [
+                  3,
+                  4
+                ],
+                "CanLectures": false,
+                "CanPracticals": true
+              },
+              "IsLecture": false
+            }
+          ]
+        },
+        {
+          "MaxNumberOfLessons": 4,
+          "TimeTableCells": [
+            {
+              "Subject": {
+                "Id": 2,
+                "Name": "S-2",
+                "Hours": 0,
+                "LectureHours": 2,
+                "PracticalHours": 4,
+                "RequiresSubGroupDivision": false
+              },
+              "Room": {
+                "Id": 4,
+                "Name": "R-4",
+                "Capacity": 30
+              },
+              "Teacher": {
+                "Id": 1,
+                "Name": "T-1",
+                "SubjectIds": [
+                  1,
+                  2
+                ],
+                "CanLectures": true,
+                "CanPracticals": true
+              },
+              "IsLecture": true
+            },
+            {
+              "Subject": {
+                "Id": 1,
+                "Name": "Статистичне моделювання",
+                "Hours": 0,
+                "LectureHours": 2,
+                "PracticalHours": 3,
+                "RequiresSubGroupDivision": true
+              },
+              "Room": {
+                "Id": 4,
+                "Name": "R-4",
+                "Capacity": 30
+              },
+              "Teacher": {
+                "Id": 0,
+                "Name": "T-0",
+                "SubjectIds": [
+                  0,
+                  1
+                ],
+                "CanLectures": false,
+                "CanPracticals": true
+              },
+              "IsLecture": false
+            },
+            {
+              "Subject": {
+                "Id": 0,
+                "Name": "Теорія прийняття рішень",
+                "Hours": 0,
+                "LectureHours": 30,
+                "PracticalHours": 30,
+                "RequiresSubGroupDivision": true
+              },
+              "Room": {
+                "Id": 0,
+                "Name": "R-0",
+                "Capacity": 50
+              },
+              "Teacher": {
+                "Id": 4,
+                "Name": "T-4",
+                "SubjectIds": [
+                  0,
+                  4
+                ],
+                "CanLectures": true,
+                "CanPracticals": true
+              },
+              "IsLecture": false
+            },
+            {
+              "Subject": {
+                "Id": 2,
+                "Name": "S-2",
+                "Hours": 0,
+                "LectureHours": 2,
+                "PracticalHours": 4,
+                "RequiresSubGroupDivision": false
+              },
+              "Room": {
+                "Id": 5,
+                "Name": "R-5",
+                "Capacity": 30
+              },
+              "Teacher": {
+                "Id": 1,
+                "Name": "T-1",
+                "SubjectIds": [
+                  1,
+                  2
+                ],
+                "CanLectures": true,
+                "CanPracticals": true
+              },
+              "IsLecture": false
+            }
+          ]
+        },
+        {
+          "MaxNumberOfLessons": 4,
+          "TimeTableCells": [
+            {
+              "Subject": {
+                "Id": 3,
+                "Name": "S-3",
+                "Hours": 0,
+                "LectureHours": 2,
+                "PracticalHours": 1,
+                "RequiresSubGroupDivision": false
+              },
+              "Room": {
+                "Id": 4,
+                "Name": "R-4",
+                "Capacity": 30
+              },
+              "Teacher": {
+                "Id": 3,
+                "Name": "T-3",
+                "SubjectIds": [
+                  3,
+                  4
+                ],
+                "CanLectures": false,
+                "CanPracticals": true
+              },
+              "IsLecture": false
+            },
+            {
+              "Subject": {
+                "Id": 3,
+                "Name": "S-3",
+                "Hours": 0,
+                "LectureHours": 2,
+                "PracticalHours": 1,
+                "RequiresSubGroupDivision": false
+              },
+              "Room": {
+                "Id": 5,
+                "Name": "R-5",
+                "Capacity": 30
+              },
+              "Teacher": {
+                "Id": 3,
+                "Name": "T-3",
+                "SubjectIds": [
+                  3,
+                  4
+                ],
+                "CanLectures": false,
+                "CanPracticals": true
+              },
+              "IsLecture": false
+            },
+            {
+              "Subject": {
+                "Id": 3,
+                "Name": "S-3",
+                "Hours": 0,
+                "LectureHours": 2,
+                "PracticalHours": 1,
+                "RequiresSubGroupDivision": false
+              },
+              "Room": {
+                "Id": 1,
+                "Name": "R-1",
+                "Capacity": 50
+              },
+              "Teacher": {
+                "Id": 2,
+                "Name": "T-2",
+                "SubjectIds": [
+                  2,
+                  3
+                ],
+                "CanLectures": true,
+                "CanPracticals": true
+              },
+              "IsLecture": true
+            },
+            {
+              "Subject": {
+                "Id": 2,
+                "Name": "S-2",
+                "Hours": 0,
+                "LectureHours": 2,
+                "PracticalHours": 4,
+                "RequiresSubGroupDivision": false
+              },
+              "Room": {
+                "Id": 0,
+                "Name": "R-0",
+                "Capacity": 50
+              },
+              "Teacher": {
+                "Id": 1,
+                "Name": "T-1",
+                "SubjectIds": [
+                  1,
+                  2
+                ],
+                "CanLectures": true,
+                "CanPracticals": true
+              },
+              "IsLecture": true
+            }
+          ]
+        },
+        {
+          "MaxNumberOfLessons": 4,
+          "TimeTableCells": [
+            {
+              "Subject": {
+                "Id": 3,
+                "Name": "S-3",
+                "Hours": 0,
+                "LectureHours": 2,
+                "PracticalHours": 1,
+                "RequiresSubGroupDivision": false
+              },
+              "Room": {
+                "Id": 0,
+                "Name": "R-0",
+                "Capacity": 50
+              },
+              "Teacher": {
+                "Id": 2,
+                "Name": "T-2",
+                "SubjectIds": [
+                  2,
+                  3
+                ],
+                "CanLectures": true,
+                "CanPracticals": true
+              },
+              "IsLecture": true
+            },
+            {
+              "Subject": {
+                "Id": 3,
+                "Name": "S-3",
+                "Hours": 0,
+                "LectureHours": 2,
+                "PracticalHours": 1,
+                "RequiresSubGroupDivision": false
+              },
+              "Room": {
+                "Id": 4,
+                "Name": "R-4",
+                "Capacity": 30
+              },
+              "Teacher": {
+                "Id": 2,
+                "Name": "T-2",
+                "SubjectIds": [
+                  2,
+                  3
+                ],
+                "CanLectures": true,
+                "CanPracticals": true
+              },
+              "IsLecture": false
+            },
+            {
+              "Subject": {
+                "Id": 4,
+                "Name": "S-4",
+                "Hours": 0,
+                "LectureHours": 2,
+                "PracticalHours": 1,
+                "RequiresSubGroupDivision": true
+              },
+              "Room": {
+                "Id": 3,
+                "Name": "R-3",
+                "Capacity": 30
+              },
+              "Teacher": {
+                "Id": 3,
+                "Name": "T-3",
+                "SubjectIds": [
+                  3,
+                  4
+                ],
+                "CanLectures": false,
+                "CanPracticals": true
+              },
+              "IsLecture": false
+            },
+            {
+              "Subject": {
+                "Id": 2,
+                "Name": "S-2",
+                "Hours": 0,
+                "LectureHours": 2,
+                "PracticalHours": 4,
+                "RequiresSubGroupDivision": false
+              },
+              "Room": {
+                "Id": 3,
+                "Name": "R-3",
+                "Capacity": 30
+              },
+              "Teacher": {
+                "Id": 1,
+                "Name": "T-1",
+                "SubjectIds": [
+                  1,
+                  2
+                ],
+                "CanLectures": true,
+                "CanPracticals": true
+              },
+              "IsLecture": true
+            }
+          ]
+        },
+        {
+          "MaxNumberOfLessons": 4,
+          "TimeTableCells": [
+            {
+              "Subject": {
+                "Id": 4,
+                "Name": "S-4",
+                "Hours": 0,
+                "LectureHours": 2,
+                "PracticalHours": 1,
+                "RequiresSubGroupDivision": true
+              },
+              "Room": {
+                "Id": 0,
+                "Name": "R-0",
+                "Capacity": 50
+              },
+              "Teacher": {
+                "Id": 3,
+                "Name": "T-3",
+                "SubjectIds": [
+                  3,
+                  4
+                ],
+                "CanLectures": false,
+                "CanPracticals": true
+              },
+              "IsLecture": false
+            },
+            {
+              "Subject": {
+                "Id": 3,
+                "Name": "S-3",
+                "Hours": 0,
+                "LectureHours": 2,
+                "PracticalHours": 1,
+                "RequiresSubGroupDivision": false
+              },
+              "Room": {
+                "Id": 1,
+                "Name": "R-1",
+                "Capacity": 50
+              },
+              "Teacher": {
+                "Id": 2,
+                "Name": "T-2",
+                "SubjectIds": [
+                  2,
+                  3
+                ],
+                "CanLectures": true,
+                "CanPracticals": true
+              },
+              "IsLecture": true
+            },
+            {
+              "Subject": {
+                "Id": 4,
+                "Name": "S-4",
+                "Hours": 0,
+                "LectureHours": 2,
+                "PracticalHours": 1,
+                "RequiresSubGroupDivision": true
+              },
+              "Room": {
+                "Id": 0,
+                "Name": "R-0",
+                "Capacity": 50
+              },
+              "Teacher": {
+                "Id": 3,
+                "Name": "T-3",
+                "SubjectIds": [
+                  3,
+                  4
+                ],
+                "CanLectures": false,
+                "CanPracticals": true
+              },
+              "IsLecture": false
+            },
+            {
+              "Subject": {
+                "Id": 1,
+                "Name": "Статистичне моделювання",
+                "Hours": 0,
+                "LectureHours": 2,
+                "PracticalHours": 3,
+                "RequiresSubGroupDivision": true
+              },
+              "Room": {
+                "Id": 3,
+                "Name": "R-3",
+                "Capacity": 30
+              },
+              "Teacher": {
+                "Id": 0,
+                "Name": "T-0",
+                "SubjectIds": [
+                  0,
+                  1
+                ],
+                "CanLectures": false,
+                "CanPracticals": true
+              },
+              "IsLecture": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Group": {
+        "Id": 3,
+        "Name": "MI42",
+        "NumberOfStudents": 30
+      },
+      "WorkDayNumber": 5,
+      "DayTimeTables": [
+        {
+          "MaxNumberOfLessons": 4,
+          "TimeTableCells": [
+            {
+              "Subject": {
+                "Id": 3,
+                "Name": "S-3",
+                "Hours": 0,
+                "LectureHours": 2,
+                "PracticalHours": 1,
+                "RequiresSubGroupDivision": false
+              },
+              "Room": {
+                "Id": 4,
+                "Name": "R-4",
+                "Capacity": 30
+              },
+              "Teacher": {
+                "Id": 2,
+                "Name": "T-2",
+                "SubjectIds": [
+                  2,
+                  3
+                ],
+                "CanLectures": true,
+                "CanPracticals": true
+              },
+              "IsLecture": true
+            },
+            {
+              "Subject": {
+                "Id": 2,
+                "Name": "S-2",
+                "Hours": 0,
+                "LectureHours": 2,
+                "PracticalHours": 4,
+                "RequiresSubGroupDivision": false
+              },
+              "Room": {
+                "Id": 0,
+                "Name": "R-0",
+                "Capacity": 50
+              },
+              "Teacher": {
+                "Id": 1,
+                "Name": "T-1",
+                "SubjectIds": [
+                  1,
+                  2
+                ],
+                "CanLectures": true,
+                "CanPracticals": true
+              },
+              "IsLecture": false
+            },
+            {
+              "Subject": {
+                "Id": 2,
+                "Name": "S-2",
+                "Hours": 0,
+                "LectureHours": 2,
+                "PracticalHours": 4,
+                "RequiresSubGroupDivision": false
+              },
+              "Room": {
+                "Id": 0,
+                "Name": "R-0",
+                "Capacity": 50
+              },
+              "Teacher": {
+                "Id": 1,
+                "Name": "T-1",
+                "SubjectIds": [
+                  1,
+                  2
+                ],
+                "CanLectures": true,
+                "CanPracticals": true
+              },
+              "IsLecture": false
+            },
+            {
+              "Subject": {
+                "Id": 2,
+                "Name": "S-2",
+                "Hours": 0,
+                "LectureHours": 2,
+                "PracticalHours": 4,
+                "RequiresSubGroupDivision": false
+              },
+              "Room": {
+                "Id": 3,
+                "Name": "R-3",
+                "Capacity": 30
+              },
+              "Teacher": {
+                "Id": 1,
+                "Name": "T-1",
+                "SubjectIds": [
+                  1,
+                  2
+                ],
+                "CanLectures": true,
+                "CanPracticals": true
+              },
+              "IsLecture": false
+            }
+          ]
+        },
+        {
+          "MaxNumberOfLessons": 4,
+          "TimeTableCells": [
+            {
+              "Subject": {
+                "Id": 0,
+                "Name": "Теорія прийняття рішень",
+                "Hours": 0,
+                "LectureHours": 30,
+                "PracticalHours": 30,
+                "RequiresSubGroupDivision": true
+              },
+              "Room": {
+                "Id": 2,
+                "Name": "R-2",
+                "Capacity": 30
+              },
+              "Teacher": {
+                "Id": 0,
+                "Name": "T-0",
+                "SubjectIds": [
+                  0,
+                  1
+                ],
+                "CanLectures": false,
+                "CanPracticals": true
+              },
+              "IsLecture": false
+            },
+            {
+              "Subject": {
+                "Id": 2,
+                "Name": "S-2",
+                "Hours": 0,
+                "LectureHours": 2,
+                "PracticalHours": 4,
+                "RequiresSubGroupDivision": false
+              },
+              "Room": {
+                "Id": 5,
+                "Name": "R-5",
+                "Capacity": 30
+              },
+              "Teacher": {
+                "Id": 1,
+                "Name": "T-1",
+                "SubjectIds": [
+                  1,
+                  2
+                ],
+                "CanLectures": true,
+                "CanPracticals": true
+              },
+              "IsLecture": false
+            },
+            {
+              "Subject": {
+                "Id": 2,
+                "Name": "S-2",
+                "Hours": 0,
+                "LectureHours": 2,
+                "PracticalHours": 4,
+                "RequiresSubGroupDivision": false
+              },
+              "Room": {
+                "Id": 2,
+                "Name": "R-2",
+                "Capacity": 30
+              },
+              "Teacher": {
+                "Id": 1,
+                "Name": "T-1",
+                "SubjectIds": [
+                  1,
+                  2
+                ],
+                "CanLectures": true,
+                "CanPracticals": true
+              },
+              "IsLecture": true
+            },
+            {
+              "Subject": {
+                "Id": 4,
+                "Name": "S-4",
+                "Hours": 0,
+                "LectureHours": 2,
+                "PracticalHours": 1,
+                "RequiresSubGroupDivision": true
+              },
+              "Room": {
+                "Id": 2,
+                "Name": "R-2",
+                "Capacity": 30
+              },
+              "Teacher": {
+                "Id": 3,
+                "Name": "T-3",
+                "SubjectIds": [
+                  3,
+                  4
+                ],
+                "CanLectures": false,
+                "CanPracticals": true
+              },
+              "IsLecture": false
+            }
+          ]
+        },
+        {
+          "MaxNumberOfLessons": 4,
+          "TimeTableCells": [
+            {
+              "Subject": {
+                "Id": 2,
+                "Name": "S-2",
+                "Hours": 0,
+                "LectureHours": 2,
+                "PracticalHours": 4,
+                "RequiresSubGroupDivision": false
+              },
+              "Room": {
+                "Id": 0,
+                "Name": "R-0",
+                "Capacity": 50
+              },
+              "Teacher": {
+                "Id": 1,
+                "Name": "T-1",
+                "SubjectIds": [
+                  1,
+                  2
+                ],
+                "CanLectures": true,
+                "CanPracticals": true
+              },
+              "IsLecture": true
+            },
+            {
+              "Subject": {
+                "Id": 0,
+                "Name": "Теорія прийняття рішень",
+                "Hours": 0,
+                "LectureHours": 30,
+                "PracticalHours": 30,
+                "RequiresSubGroupDivision": true
+              },
+              "Room": {
+                "Id": 3,
+                "Name": "R-3",
+                "Capacity": 30
+              },
+              "Teacher": {
+                "Id": 0,
+                "Name": "T-0",
+                "SubjectIds": [
+                  0,
+                  1
+                ],
+                "CanLectures": false,
+                "CanPracticals": true
+              },
+              "IsLecture": false
+            },
+            {
+              "Subject": {
+                "Id": 0,
+                "Name": "Теорія прийняття рішень",
+                "Hours": 0,
+                "LectureHours": 30,
+                "PracticalHours": 30,
+                "RequiresSubGroupDivision": true
+              },
+              "Room": {
+                "Id": 2,
+                "Name": "R-2",
+                "Capacity": 30
+              },
+              "Teacher": {
+                "Id": 0,
+                "Name": "T-0",
+                "SubjectIds": [
+                  0,
+                  1
+                ],
+                "CanLectures": false,
+                "CanPracticals": true
+              },
+              "IsLecture": false
+            },
+            {
+              "Subject": {
+                "Id": 0,
+                "Name": "Теорія прийняття рішень",
+                "Hours": 0,
+                "LectureHours": 30,
+                "PracticalHours": 30,
+                "RequiresSubGroupDivision": true
+              },
+              "Room": {
+                "Id": 1,
+                "Name": "R-1",
+                "Capacity": 50
+              },
+              "Teacher": {
+                "Id": 4,
+                "Name": "T-4",
+                "SubjectIds": [
+                  0,
+                  4
+                ],
+                "CanLectures": true,
+                "CanPracticals": true
+              },
+              "IsLecture": true
+            }
+          ]
+        },
+        {
+          "MaxNumberOfLessons": 4,
+          "TimeTableCells": [
+            {
+              "Subject": {
+                "Id": 2,
+                "Name": "S-2",
+                "Hours": 0,
+                "LectureHours": 2,
+                "PracticalHours": 4,
+                "RequiresSubGroupDivision": false
+              },
+              "Room": {
+                "Id": 4,
+                "Name": "R-4",
+                "Capacity": 30
+              },
+              "Teacher": {
+                "Id": 1,
+                "Name": "T-1",
+                "SubjectIds": [
+                  1,
+                  2
+                ],
+                "CanLectures": true,
+                "CanPracticals": true
+              },
+              "IsLecture": true
+            },
+            {
+              "Subject": {
+                "Id": 4,
+                "Name": "S-4",
+                "Hours": 0,
+                "LectureHours": 2,
+                "PracticalHours": 1,
+                "RequiresSubGroupDivision": true
+              },
+              "Room": {
+                "Id": 5,
+                "Name": "R-5",
+                "Capacity": 30
+              },
+              "Teacher": {
+                "Id": 3,
+                "Name": "T-3",
+                "SubjectIds": [
+                  3,
+                  4
+                ],
+                "CanLectures": false,
+                "CanPracticals": true
+              },
+              "IsLecture": false
+            },
+            {
+              "Subject": {
+                "Id": 1,
+                "Name": "Статистичне моделювання",
+                "Hours": 0,
+                "LectureHours": 2,
+                "PracticalHours": 3,
+                "RequiresSubGroupDivision": true
+              },
+              "Room": {
+                "Id": 4,
+                "Name": "R-4",
+                "Capacity": 30
+              },
+              "Teacher": {
+                "Id": 0,
+                "Name": "T-0",
+                "SubjectIds": [
+                  0,
+                  1
+                ],
+                "CanLectures": false,
+                "CanPracticals": true
+              },
+              "IsLecture": false
+            },
+            {
+              "Subject": {
+                "Id": 3,
+                "Name": "S-3",
+                "Hours": 0,
+                "LectureHours": 2,
+                "PracticalHours": 1,
+                "RequiresSubGroupDivision": false
+              },
+              "Room": {
+                "Id": 4,
+                "Name": "R-4",
+                "Capacity": 30
+              },
+              "Teacher": {
+                "Id": 2,
+                "Name": "T-2",
+                "SubjectIds": [
+                  2,
+                  3
+                ],
+                "CanLectures": true,
+                "CanPracticals": true
+              },
+              "IsLecture": true
+            }
+          ]
+        },
+        {
+          "MaxNumberOfLessons": 4,
+          "TimeTableCells": [
+            {
+              "Subject": {
+                "Id": 2,
+                "Name": "S-2",
+                "Hours": 0,
+                "LectureHours": 2,
+                "PracticalHours": 4,
+                "RequiresSubGroupDivision": false
+              },
+              "Room": {
+                "Id": 1,
+                "Name": "R-1",
+                "Capacity": 50
+              },
+              "Teacher": {
+                "Id": 1,
+                "Name": "T-1",
+                "SubjectIds": [
+                  1,
+                  2
+                ],
+                "CanLectures": true,
+                "CanPracticals": true
+              },
+              "IsLecture": true
+            },
+            {
+              "Subject": {
+                "Id": 3,
+                "Name": "S-3",
+                "Hours": 0,
+                "LectureHours": 2,
+                "PracticalHours": 1,
+                "RequiresSubGroupDivision": false
+              },
+              "Room": {
+                "Id": 1,
+                "Name": "R-1",
+                "Capacity": 50
+              },
+              "Teacher": {
+                "Id": 2,
+                "Name": "T-2",
+                "SubjectIds": [
+                  2,
+                  3
+                ],
+                "CanLectures": true,
+                "CanPracticals": true
+              },
+              "IsLecture": true
+            },
+            {
+              "Subject": {
+                "Id": 3,
+                "Name": "S-3",
+                "Hours": 0,
+                "LectureHours": 2,
+                "PracticalHours": 1,
+                "RequiresSubGroupDivision": false
+              },
+              "Room": {
+                "Id": 2,
+                "Name": "R-2",
+                "Capacity": 30
+              },
+              "Teacher": {
+                "Id": 2,
+                "Name": "T-2",
+                "SubjectIds": [
+                  2,
+                  3
+                ],
+                "CanLectures": true,
+                "CanPracticals": true
+              },
+              "IsLecture": true
+            },
+            {
+              "Subject": {
+                "Id": 3,
+                "Name": "S-3",
+                "Hours": 0,
+                "LectureHours": 2,
+                "PracticalHours": 1,
+                "RequiresSubGroupDivision": false
+              },
+              "Room": {
+                "Id": 2,
+                "Name": "R-2",
+                "Capacity": 30
+              },
+              "Teacher": {
+                "Id": 2,
+                "Name": "T-2",
+                "SubjectIds": [
+                  2,
+                  3
+                ],
+                "CanLectures": true,
+                "CanPracticals": true
+              },
+              "IsLecture": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Group": {
+        "Id": 4,
+        "Name": "TK41",
+        "NumberOfStudents": 30
+      },
+      "WorkDayNumber": 5,
+      "DayTimeTables": [
+        {
+          "MaxNumberOfLessons": 4,
+          "TimeTableCells": [
+            {
+              "Subject": {
+                "Id": 1,
+                "Name": "Статистичне моделювання",
+                "Hours": 0,
+                "LectureHours": 2,
+                "PracticalHours": 3,
+                "RequiresSubGroupDivision": true
+              },
+              "Room": {
+                "Id": 2,
+                "Name": "R-2",
+                "Capacity": 30
+              },
+              "Teacher": {
+                "Id": 1,
+                "Name": "T-1",
+                "SubjectIds": [
+                  1,
+                  2
+                ],
+                "CanLectures": true,
+                "CanPracticals": true
+              },
+              "IsLecture": true
+            },
+            {
+              "Subject": {
+                "Id": 3,
+                "Name": "S-3",
+                "Hours": 0,
+                "LectureHours": 2,
+                "PracticalHours": 1,
+                "RequiresSubGroupDivision": false
+              },
+              "Room": {
+                "Id": 3,
+                "Name": "R-3",
+                "Capacity": 30
+              },
+              "Teacher": {
+                "Id": 2,
+                "Name": "T-2",
+                "SubjectIds": [
+                  2,
+                  3
+                ],
+                "CanLectures": true,
+                "CanPracticals": true
+              },
+              "IsLecture": true
+            },
+            {
+              "Subject": {
+                "Id": 1,
+                "Name": "Статистичне моделювання",
+                "Hours": 0,
+                "LectureHours": 2,
+                "PracticalHours": 3,
+                "RequiresSubGroupDivision": true
+              },
+              "Room": {
+                "Id": 1,
+                "Name": "R-1",
+                "Capacity": 50
+              },
+              "Teacher": {
+                "Id": 0,
+                "Name": "T-0",
+                "SubjectIds": [
+                  0,
+                  1
+                ],
+                "CanLectures": false,
+                "CanPracticals": true
+              },
+              "IsLecture": false
+            },
+            {
+              "Subject": {
+                "Id": 3,
+                "Name": "S-3",
+                "Hours": 0,
+                "LectureHours": 2,
+                "PracticalHours": 1,
+                "RequiresSubGroupDivision": false
+              },
+              "Room": {
+                "Id": 5,
+                "Name": "R-5",
+                "Capacity": 30
+              },
+              "Teacher": {
+                "Id": 2,
+                "Name": "T-2",
+                "SubjectIds": [
+                  2,
+                  3
+                ],
+                "CanLectures": true,
+                "CanPracticals": true
+              },
+              "IsLecture": true
+            }
+          ]
+        },
+        {
+          "MaxNumberOfLessons": 4,
+          "TimeTableCells": [
+            {
+              "Subject": {
+                "Id": 3,
+                "Name": "S-3",
+                "Hours": 0,
+                "LectureHours": 2,
+                "PracticalHours": 1,
+                "RequiresSubGroupDivision": false
+              },
+              "Room": {
+                "Id": 1,
+                "Name": "R-1",
+                "Capacity": 50
+              },
+              "Teacher": {
+                "Id": 2,
+                "Name": "T-2",
+                "SubjectIds": [
+                  2,
+                  3
+                ],
+                "CanLectures": true,
+                "CanPracticals": true
+              },
+              "IsLecture": true
+            },
+            {
+              "Subject": {
+                "Id": 3,
+                "Name": "S-3",
+                "Hours": 0,
+                "LectureHours": 2,
+                "PracticalHours": 1,
+                "RequiresSubGroupDivision": false
+              },
+              "Room": {
+                "Id": 3,
+                "Name": "R-3",
+                "Capacity": 30
+              },
+              "Teacher": {
+                "Id": 2,
+                "Name": "T-2",
+                "SubjectIds": [
+                  2,
+                  3
+                ],
+                "CanLectures": true,
+                "CanPracticals": true
+              },
+              "IsLecture": false
+            },
+            {
+              "Subject": {
+                "Id": 1,
+                "Name": "Статистичне моделювання",
+                "Hours": 0,
+                "LectureHours": 2,
+                "PracticalHours": 3,
+                "RequiresSubGroupDivision": true
+              },
+              "Room": {
+                "Id": 4,
+                "Name": "R-4",
+                "Capacity": 30
+              },
+              "Teacher": {
+                "Id": 0,
+                "Name": "T-0",
+                "SubjectIds": [
+                  0,
+                  1
+                ],
+                "CanLectures": false,
+                "CanPracticals": true
+              },
+              "IsLecture": false
+            },
+            {
+              "Subject": {
+                "Id": 1,
+                "Name": "Статистичне моделювання",
+                "Hours": 0,
+                "LectureHours": 2,
+                "PracticalHours": 3,
+                "RequiresSubGroupDivision": true
+              },
+              "Room": {
+                "Id": 4,
+                "Name": "R-4",
+                "Capacity": 30
+              },
+              "Teacher": {
+                "Id": 0,
+                "Name": "T-0",
+                "SubjectIds": [
+                  0,
+                  1
+                ],
+                "CanLectures": false,
+                "CanPracticals": true
+              },
+              "IsLecture": false
+            }
+          ]
+        },
+        {
+          "MaxNumberOfLessons": 4,
+          "TimeTableCells": [
+            {
+              "Subject": {
+                "Id": 2,
+                "Name": "S-2",
+                "Hours": 0,
+                "LectureHours": 2,
+                "PracticalHours": 4,
+                "RequiresSubGroupDivision": false
+              },
+              "Room": {
+                "Id": 0,
+                "Name": "R-0",
+                "Capacity": 50
+              },
+              "Teacher": {
+                "Id": 1,
+                "Name": "T-1",
+                "SubjectIds": [
+                  1,
+                  2
+                ],
+                "CanLectures": true,
+                "CanPracticals": true
+              },
+              "IsLecture": true
+            },
+            {
+              "Subject": {
+                "Id": 2,
+                "Name": "S-2",
+                "Hours": 0,
+                "LectureHours": 2,
+                "PracticalHours": 4,
+                "RequiresSubGroupDivision": false
+              },
+              "Room": {
+                "Id": 1,
+                "Name": "R-1",
+                "Capacity": 50
+              },
+              "Teacher": {
+                "Id": 1,
+                "Name": "T-1",
+                "SubjectIds": [
+                  1,
+                  2
+                ],
+                "CanLectures": true,
+                "CanPracticals": true
+              },
+              "IsLecture": true
+            },
+            {
+              "Subject": {
+                "Id": 3,
+                "Name": "S-3",
+                "Hours": 0,
+                "LectureHours": 2,
+                "PracticalHours": 1,
+                "RequiresSubGroupDivision": false
+              },
+              "Room": {
+                "Id": 1,
+                "Name": "R-1",
+                "Capacity": 50
+              },
+              "Teacher": {
+                "Id": 2,
+                "Name": "T-2",
+                "SubjectIds": [
+                  2,
+                  3
+                ],
+                "CanLectures": true,
+                "CanPracticals": true
+              },
+              "IsLecture": true
+            },
+            {
+              "Subject": {
+                "Id": 2,
+                "Name": "S-2",
+                "Hours": 0,
+                "LectureHours": 2,
+                "PracticalHours": 4,
+                "RequiresSubGroupDivision": false
+              },
+              "Room": {
+                "Id": 0,
+                "Name": "R-0",
+                "Capacity": 50
+              },
+              "Teacher": {
+                "Id": 1,
+                "Name": "T-1",
+                "SubjectIds": [
+                  1,
+                  2
+                ],
+                "CanLectures": true,
+                "CanPracticals": true
+              },
+              "IsLecture": true
+            }
+          ]
+        },
+        {
+          "MaxNumberOfLessons": 4,
+          "TimeTableCells": [
+            {
+              "Subject": {
+                "Id": 1,
+                "Name": "Статистичне моделювання",
+                "Hours": 0,
+                "LectureHours": 2,
+                "PracticalHours": 3,
+                "RequiresSubGroupDivision": true
+              },
+              "Room": {
+                "Id": 5,
+                "Name": "R-5",
+                "Capacity": 30
+              },
+              "Teacher": {
+                "Id": 0,
+                "Name": "T-0",
+                "SubjectIds": [
+                  0,
+                  1
+                ],
+                "CanLectures": false,
+                "CanPracticals": true
+              },
+              "IsLecture": false
+            },
+            {
+              "Subject": {
+                "Id": 2,
+                "Name": "S-2",
+                "Hours": 0,
+                "LectureHours": 2,
+                "PracticalHours": 4,
+                "RequiresSubGroupDivision": false
+              },
+              "Room": {
+                "Id": 0,
+                "Name": "R-0",
+                "Capacity": 50
+              },
+              "Teacher": {
+                "Id": 1,
+                "Name": "T-1",
+                "SubjectIds": [
+                  1,
+                  2
+                ],
+                "CanLectures": true,
+                "CanPracticals": true
+              },
+              "IsLecture": true
+            },
+            {
+              "Subject": {
+                "Id": 3,
+                "Name": "S-3",
+                "Hours": 0,
+                "LectureHours": 2,
+                "PracticalHours": 1,
+                "RequiresSubGroupDivision": false
+              },
+              "Room": {
+                "Id": 0,
+                "Name": "R-0",
+                "Capacity": 50
+              },
+              "Teacher": {
+                "Id": 2,
+                "Name": "T-2",
+                "SubjectIds": [
+                  2,
+                  3
+                ],
+                "CanLectures": true,
+                "CanPracticals": true
+              },
+              "IsLecture": false
+            },
+            {
+              "Subject": {
+                "Id": 4,
+                "Name": "S-4",
+                "Hours": 0,
+                "LectureHours": 2,
+                "PracticalHours": 1,
+                "RequiresSubGroupDivision": true
+              },
+              "Room": {
+                "Id": 2,
+                "Name": "R-2",
+                "Capacity": 30
+              },
+              "Teacher": {
+                "Id": 3,
+                "Name": "T-3",
+                "SubjectIds": [
+                  3,
+                  4
+                ],
+                "CanLectures": false,
+                "CanPracticals": true
+              },
+              "IsLecture": false
+            }
+          ]
+        },
+        {
+          "MaxNumberOfLessons": 4,
+          "TimeTableCells": [
+            {
+              "Subject": {
+                "Id": 2,
+                "Name": "S-2",
+                "Hours": 0,
+                "LectureHours": 2,
+                "PracticalHours": 4,
+                "RequiresSubGroupDivision": false
+              },
+              "Room": {
+                "Id": 1,
+                "Name": "R-1",
+                "Capacity": 50
+              },
+              "Teacher": {
+                "Id": 1,
+                "Name": "T-1",
+                "SubjectIds": [
+                  1,
+                  2
+                ],
+                "CanLectures": true,
+                "CanPracticals": true
+              },
+              "IsLecture": true
+            },
+            {
+              "Subject": {
+                "Id": 2,
+                "Name": "S-2",
+                "Hours": 0,
+                "LectureHours": 2,
+                "PracticalHours": 4,
+                "RequiresSubGroupDivision": false
+              },
+              "Room": {
+                "Id": 4,
+                "Name": "R-4",
+                "Capacity": 30
+              },
+              "Teacher": {
+                "Id": 1,
+                "Name": "T-1",
+                "SubjectIds": [
+                  1,
+                  2
+                ],
+                "CanLectures": true,
+                "CanPracticals": true
+              },
+              "IsLecture": false
+            },
+            {
+              "Subject": {
+                "Id": 0,
+                "Name": "Теорія прийняття рішень",
+                "Hours": 0,
+                "LectureHours": 30,
+                "PracticalHours": 30,
+                "RequiresSubGroupDivision": true
+              },
+              "Room": {
+                "Id": 4,
+                "Name": "R-4",
+                "Capacity": 30
+              },
+              "Teacher": {
+                "Id": 4,
+                "Name": "T-4",
+                "SubjectIds": [
+                  0,
+                  4
+                ],
+                "CanLectures": true,
+                "CanPracticals": true
+              },
+              "IsLecture": false
+            },
+            {
+              "Subject": {
+                "Id": 2,
+                "Name": "S-2",
+                "Hours": 0,
+                "LectureHours": 2,
+                "PracticalHours": 4,
+                "RequiresSubGroupDivision": false
+              },
+              "Room": {
+                "Id": 5,
+                "Name": "R-5",
+                "Capacity": 30
+              },
+              "Teacher": {
+                "Id": 1,
+                "Name": "T-1",
+                "SubjectIds": [
+                  1,
+                  2
+                ],
+                "CanLectures": true,
+                "CanPracticals": true
+              },
+              "IsLecture": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Fittness": 100
+}

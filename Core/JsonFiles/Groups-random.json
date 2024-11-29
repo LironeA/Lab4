@@ -1,0 +1,27 @@
+[
+  {
+    "Id": 0,
+    "Name": "TTP41",
+    "NumberOfStudents": 30
+  },
+  {
+    "Id": 1,
+    "Name": "TTP42",
+    "NumberOfStudents": 30
+  },
+  {
+    "Id": 2,
+    "Name": "MI41",
+    "NumberOfStudents": 28
+  },
+  {
+    "Id": 3,
+    "Name": "MI42",
+    "NumberOfStudents": 30
+  },
+  {
+    "Id": 4,
+    "Name": "TK41",
+    "NumberOfStudents": 30
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "Id": 0,
+    "Name": "T-0",
+    "SubjectIds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "CanLectures": false,
+    "CanPracticals": true
+  },
+  {
+    "Id": 1,
+    "Name": "T-1",
+    "SubjectIds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "CanLectures": true,
+    "CanPracticals": true
+  },
+  {
+    "Id": 2,
+    "Name": "T-2",
+    "SubjectIds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "CanLectures": true,
+    "CanPracticals": true
+  },
+  {
+    "Id": 3,
+    "Name": "T-3",
+    "SubjectIds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "CanLectures": false,
+    "CanPracticals": true
+  },
+  {
+    "Id": 4,
+    "Name": "T-4",
+    "SubjectIds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "CanLectures": true,
+    "CanPracticals": true
+  }
+]
